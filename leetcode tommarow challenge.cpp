@@ -5,8 +5,9 @@ class Solution {
             if(s[i] != s[j]){
                 return false;
             }
-            i++;
+            
             j--;
+            i++;
         }
         return true;
     }
